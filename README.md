@@ -8,7 +8,7 @@ It is an application that helps compute a set of allocations that consumes a min
 In client side, there is a dropdown menu to get [Configuration files URL](https://sit323sa.blob.core.windows.net/at2/TestSmall.cff) stored in an Azure blob. Once "Generate Allocations" button is clicked on, several asynchronous requests (configuration data) are delivered to different `WCF Services` run on AWS virtual machines and the services will return a set of allocations. </br>
 Requests are passed in parallel via _asynchronous behaviour_ in WCF Service so that time to receive responses depends on the computation time of the greedy algorithm. To ensure all the responses received, thread is used to freeze the application until all the responses received or the program duration (5 minutes).
 
-<img width="600" src="https://user-images.githubusercontent.com/57608628/148643931-8e450d81-393a-4e01-ae5c-56e434aa6be7.png">
+<img width="600" alt="Client GUI" src="https://user-images.githubusercontent.com/57608628/148644082-400547d0-7090-4463-879f-75938a73250c.png">
 
 ## AWS Architecture
 
@@ -20,4 +20,4 @@ According to the architecture below, it has 3 different types of VM; t2.nano, t2
 - terminates one VM when CPU utilisation is less than 30%
 - retains one VM after response
 
-<img width="600" src="https://user-images.githubusercontent.com/57608628/148643941-ec1c328f-058c-48fa-adaf-cd43af082f30.png">
+<img width="600" alt="AWS architecture" src="https://user-images.githubusercontent.com/57608628/148643941-ec1c328f-058c-48fa-adaf-cd43af082f30.png">
