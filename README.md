@@ -1,7 +1,7 @@
 # Cloud Application
 
 This project is one of the assessments resolved at university. </br>
-It is an application that helps compute a set of allocations that consumes a minimum amount of energy where RAM constraints are satisfied within a program duration (5 minutes). Greedy algorithm is used to find a valid set of allocation among the given
+It is an application that helps compute a set of allocations that consumes a minimum amount of energy where RAM constraints are satisfied within a program duration (5 minutes). Greedy algorithm is used to find a valid set of allocation.
 
 ## Application
 
