@@ -25,5 +25,6 @@ According to the architecture below, it has 3 different types of VM; t2.nano, t2
 ## Asynchronous requests
 
 WCF Service can send asynchronous messages as XML type between endpoints hosted by IIS. </br>
-In regards to the photo attached, it shows that each VM got the requests concurrently and they reached at more than one peak as AWS autoscaling group automatically increases a number of VMs when the CPU utilisation was over 70%.
+In regards to the photo attached, it shows that each VM got the requests concurrently and they reached at more than one peak as AWS autoscaling group automatically increases a number of VMs when the CPU utilisation was over 70%. </br>
+
 <img width="600" alt="CPU utilisation" src="https://user-images.githubusercontent.com/57608628/148681383-d402f10d-5b68-45ff-bcfb-d62957a3125a.png">
